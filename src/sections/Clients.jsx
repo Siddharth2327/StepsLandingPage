@@ -4,13 +4,15 @@ import ClientLogo from '../components/ClientLogo'
 import SectionTitle from '../components/SectionTitle'
 import FadeIn from '../components/FadeIn'
 
+const BASE = import.meta.env.BASE_URL
+
 const clients = [
-  { name: 'Immigration Dept Malaysia', image: '/images/clients/client1.png' },
-  { name: 'MDEC Malaysia',             image: '/images/clients/client2.png' },
-  { name: 'MIDA',                      image: '/images/clients/client3.png' },
-  { name: 'Petronas',                  image: '/images/clients/client4.png' },
-  { name: 'Tenaga Nasional',           image: '/images/clients/client5.png' },
-  { name: 'Maybank Group',             image: '/images/clients/client6.png' },
+  { name: 'Immigration Dept Malaysia', image: `${BASE}images/clients/client1.png` },
+  { name: 'MDEC Malaysia',             image: `${BASE}images/clients/client2.png` },
+  { name: 'MIDA',                      image: `${BASE}images/clients/client3.png` },
+  { name: 'Petronas',                  image: `${BASE}images/clients/client4.png` },
+  { name: 'Tenaga Nasional',           image: `${BASE}images/clients/client5.png` },
+  { name: 'Maybank Group',             image: `${BASE}images/clients/client6.png` },
 ]
 
 const testimonials = [

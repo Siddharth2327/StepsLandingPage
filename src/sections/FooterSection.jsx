@@ -73,8 +73,8 @@ export default function FooterSection() {
                         <FadeIn>
                             <div className="flex items-center gap-3 mb-5">
                                 <img
-                                    src="images/logo/stepslogo.png"
-                                    alt="Sree Step Management"
+                                    src={`${import.meta.env.BASE_URL}images/logo/stepslogo.png`}
+                                    alt="SS"
                                     className="w-12 h-12 object-contain flex-shrink-0"
                                 />
                                 <div className="flex flex-col ">

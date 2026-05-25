@@ -6,52 +6,54 @@ import ServiceCard from '../components/ServiceCard'
 import SectionTitle from '../components/SectionTitle'
 import FadeIn from '../components/FadeIn'
 
+const BASE = import.meta.env.BASE_URL
+
 const services = [
   {
     icon: Briefcase,
-    image: '/images/services/service1.jpg',
+    image: `${BASE}images/services/service1.jpg`,
     title: 'Expatriate Visa (ESD)',
     description: 'Comprehensive Employment Pass applications through the Expatriate Services Division for skilled foreign nationals.',
   },
   {
     icon: Globe,
-    image: '/images/services/service1.jpg',
+    image: `${BASE}images/services/service1.jpg`,
     title: 'Professional Visit Pass (PVP)',
     description: 'Short-term professional visit arrangements for consultants, trainers, and specialists entering Malaysia.',
   },
   {
     icon: Users,
-    image: '/images/services/service1.jpg',
+    image: `${BASE}images/services/service1.jpg`,
     title: 'Dependent Pass',
     description: 'Facilitate Dependent Pass applications for spouses and children of approved Employment Pass holders.',
   },
   {
     icon: Building2,
-    image: '/images/services/service2.jpg',
+    image: `${BASE}images/services/service2.jpg`,
     title: 'Expatriate Post (MIDA)',
     description: 'Strategic employment pass approvals through MIDA for manufacturing and industrial sector expatriates.',
   },
   {
     icon: Cpu,
-    image: '/images/services/service3.jpg',
+    image: `${BASE}images/services/service3.jpg`,
     title: 'Employment Pass (MDEC)',
     description: 'Tech sector Employment Pass processing via MDEC for digital economy and MSC Malaysia companies.',
   },
   {
     icon: Home,
-    image: '/images/services/service4.png',
+    image: `${BASE}images/services/service4.png`,
     title: 'Residence Pass',
     description: 'Long-term Residence Pass (RP-T) applications for highly skilled talent seeking permanent stay in Malaysia.',
   },
   {
     icon: Heart,
-    image: '/images/services/service4.png',
+    image: `${BASE}images/services/service4.png`,
     title: 'Spouse Visa & Work Permit',
     description: 'Combined applications for spouse visas and associated work permits for qualifying expatriate families.',
   },
   {
     icon: Plane,
-    image: '/images/services/service4.png',
+    image: `${BASE}images/services/service4.png`,
     title: 'APEC Business Travel Card',
     description: 'APEC Business Travel Card facilitation enabling fast-track entry across 21 APEC member economies.',
   },
